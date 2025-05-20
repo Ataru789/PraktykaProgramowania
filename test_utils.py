@@ -10,7 +10,7 @@ def test_add(a, b, expected):
 @pytest.mark.parametrize("a, b, expected", [(2 , 1 , 1) , (8 , 3 ,5) , (11 , 4 , 7) , (14 , 5 , 9)])
 
 def test_subtract(a, b, expected):
-    result = utils.substract(a,b)
+    result = utils.subtract(a,b)
     assert result == expected
 
 @pytest.mark.parametrize("a, b, expected", [(1 , 2 , 2) , (2 , 3 ,6) , (3 , 4 , 12) , (4 , 5 , 20)])
