@@ -22,7 +22,7 @@ def test_multiply(a, b, expected):
 @pytest.mark.parametrize("a, b, expected", [(6 , 2 , 3) , (15 , 3 ,5) , (28 , 4 , 7) , (5 , 2 , 2.5)])
 
 def test_divide(a, b, expected):
-    result = utils.substract(a,b)
+    result = utils.divide(a,b)
     assert result == expected
 
 @pytest.mark.parametrize("a, expected", [(6 , 36) , (15 ,225) , (4 , 16) , (5 , 25)])
