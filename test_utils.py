@@ -9,7 +9,7 @@ def test_add(a, b, expected):
 
 @pytest.mark.parametrize("a, b, expected", [(2 , 1 , 1) , (8 , 3 ,5) , (11 , 4 , 7) , (14 , 5 , 9)])
 
-def test_substract(a, b, expected):
+def test_subtract(a, b, expected):
     result = utils.substract(a,b)
     assert result == expected
 
@@ -30,5 +30,3 @@ def test_divide(a, b, expected):
 def test_square(a, expected):
     result = utils.square(a)
     assert result == expected
-
-
