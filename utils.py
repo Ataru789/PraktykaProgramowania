@@ -2,11 +2,13 @@
 This module contains the functions for calculator app.
 """
 
+
 def add(a: int, b: int) -> int:
     """
     This function adds two numbers and returns the result.
     """
     return a + b
+
 
 def subtract(a: int, b: int) -> int:
     """
@@ -14,11 +16,13 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
     """
     This function multiplies two numbers and returns the result.
     """
     return a * b
+
 
 def divide(a: int, b: int) -> float:
     """
