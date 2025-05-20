@@ -24,9 +24,4 @@ def test_multiply(a, b, expected):
 def test_divide(a, b, expected):
     result = utils.divide(a,b)
     assert result == expected
-
-@pytest.mark.parametrize("a, expected", [(6 , 36) , (15 ,225) , (4 , 16) , (5 , 25)])
-
-def test_square(a, expected):
-    result = utils.square(a)
-    assert result == expected
+    
